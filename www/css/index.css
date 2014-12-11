@@ -1,0 +1,35 @@
+/*
+ * KORE HTML
+ * Richard.Benentt.cti@gmail.com
+ *
+ */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+html,body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    font-family:'ArquitectaLight','HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:17px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    color: rgba(33,34,35,1);
+}
+#stats {
+  display: inline-block;
+}
+#stats > span {
+  font-family:'ArquitectaBold','HelveticaNeue-Bold', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.gss-not-ready body {
+  opacity: 0;
+}
+.gss-ready body {
+  opacity: 1;
+}
